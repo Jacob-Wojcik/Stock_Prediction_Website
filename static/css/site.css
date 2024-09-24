@@ -89,6 +89,9 @@ body {
   }
 }
 
+div#chart-spacing {
+  margin: 20px;
+}
 
 /*
  * Cover
