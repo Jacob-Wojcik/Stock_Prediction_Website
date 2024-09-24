@@ -3,8 +3,8 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="A demo site featuring an ajax-based stock widget that uses Python and Flask as a backend microservice API">
-    <meta name="author" content="Shane Larson">
+    <meta name="description" content="Stock widget that uses Python and Flask as a backend microservice API">
+    <meta name="author" content="Group 2">
 
     <title>COSC 481W Stock Prediction Website</title>
 
@@ -29,7 +29,7 @@
           <div id="widgetContent">
             <main role="main" class="inner">
               <h1 class="cover-heading">View Stock Details</h1>
-              <p class="lead">ETC.</p>
+              <p class="lead"></p>
               <p>Please enter a stock that you would like to know more about. Please user the stock 'symbol'.</p>
               <div class="input-group mb-3">
                 <input id="symbol" type="text" class="form-control" placeholder="Enter Stock ETF or Mutual Fund Symbol" aria-label="Stock, ETF or Mutual Fund" aria-describedby="basic-addon2">
@@ -38,12 +38,14 @@
                 </div>
               </div>
               <div id="chart_container"></div>
+              <div id="chart-spacing"></div>
+              <div id="chart_container2"></div>
             </main>
           </div>
           
           <footer class="mastfoot mt-auto">
             <div class="inner">
-              <p>Created by Jacob, etc.  <a href="https://www.emich.edu/">COSC 481W 2024</a></p>
+              <p>Created by Group 2  <a href="https://www.emich.edu/">COSC 481W 2024</a></p>
             </div>
           </footer>
         </div>
@@ -69,6 +71,9 @@
 		<script src="https://code.highcharts.com/modules/exporting.js"></script>
 		<script src="https://code.highcharts.com/modules/export-data.js"></script>
     <script src="https://code.highcharts.com/modules/accessibility.js"></script>
+    
+    <script src="https://code.highcharts.com/highcharts-more.js"></script>
+
     <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/numeral.js/2.0.6/numeral.min.js"></script>
 
